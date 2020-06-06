@@ -1,0 +1,46 @@
+#timeline-main{
+    background: #f0efef;
+}
+.title-main{
+    column-count: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+#ul-main-timeline{
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  align-items: flex-start;
+}
+#li-posts{
+    margin-top: 15px;
+    padding: 15px;
+    transition: 0.3s;
+    width: 80vw;
+    margin-bottom: 35vh;
+}
+article{
+    font-size: 18px;    
+}
+.btn-postshow{
+    height: 40px;
+    width: 130px;
+    border: none;
+    margin: 8px;
+    background: #DF0707 ;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    transition: 0.3s;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+    font-size: 22px ;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
